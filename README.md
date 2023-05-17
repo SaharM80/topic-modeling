@@ -31,8 +31,10 @@ topic-modeling
 |   |   3_Training_LSTM_Model.ipynb
 │
 └───src
-    │   file021.txt
-    │   file022.txt
+    │   __init__.py
+    │   main.py
+    |   topic_modeler.py
+    |   utils.py
 ```
 
 Notebook 1_Data_Clearning contains the first part of the given task. For the second part of the task, Two models were trained. Notebook 2_Training_Bert_model contains the training of the first model that was fine-tuned on Bert. This model was turned into an app and had better results. Notebook 3_Training_LSTM_Model contains the training of the second model that used `GloVe` to tokenize the text and `Keras` library to train an LSTM model.
