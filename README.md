@@ -76,7 +76,7 @@ Model achieved `0.49 percent accuracy` an `F1 Score of 0.75` and an `Roc Auc of 
 
 Used `FastAPI` a web app that was designed for more user friendly interactions. After running the app you can input a text and see the results. **Note:** if you are running the app for the first time it will take a while because it needs to download trained models from google drive.
 
-<hr><hr>
+<hr>
 
 ## How to install
 
@@ -103,7 +103,7 @@ Used `FastAPI` a web app that was designed for more user friendly interactions. 
    pipenv run uvicorn main:app --reload
    ```
 8. After app starts, open [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) in your browser.
-<hr><hr>
+<hr>
 
 ## Challenges And Improvement Ideas:
 
